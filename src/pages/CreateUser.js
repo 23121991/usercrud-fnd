@@ -4,6 +4,7 @@ import Form from 'react-bootstrap/Form';
 import Container from 'react-bootstrap/esm/Container';
 import Axios from "axios";
 import { useNavigate } from 'react-router-dom';
+import "./css/createuser.css";
 
 const CreateUser = () => {
   const navigate = useNavigate();
@@ -24,7 +25,9 @@ const CreateUser = () => {
 
 
   return (
-    <Container>
+    <div className='content'>
+      <h1 className='head'>Creating Users ....!!!!</h1>
+ <Container>
       <Form onSubmit={submitHandler}>
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label>Username</Form.Label>
@@ -41,6 +44,8 @@ const CreateUser = () => {
       </Form>
 
     </Container>
+    </div>
+   
   )
 }
 

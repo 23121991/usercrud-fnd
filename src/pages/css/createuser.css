@@ -1,0 +1,13 @@
+.content{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(170, 240, 175);
+    font-weight: 500;
+    font-size: larger;
+}
+
+.head{
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(66, 9, 9);
+    font-weight: 500;
+}

@@ -6,19 +6,19 @@ import UpdateUser from "./pages/UpdateUser";
 import Navigation from "./pages/Navigation";
 
 function App() {
-  const[id,setId] =useState("")
-  const getId =(id)=>{
-setId(id);
+  const [id, setId] = useState("")
+  const getId = (id) => {
+    setId(id);
   }
   return (
     <BrowserRouter>
-    <Navigation/>
+      <Navigation />
       <Routes>
-        <Route path="/" element={<Home getId={getId}/>} />
-        <Route path="/createForm" element={<CreateUser/>} />
-        <Route path="/updateForm" element={<UpdateUser id={id}/>} />
-</Routes>
-</BrowserRouter>
+        <Route path="/" element={<Home getId={getId} />} />
+        <Route path="/createForm" element={<CreateUser />} />
+        <Route path="/updateForm" element={<UpdateUser id={id} />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

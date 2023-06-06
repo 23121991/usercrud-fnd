@@ -1,0 +1,13 @@
+.content{
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+.header{
+    display: flex;
+    align-items: center;
+    color:cyan;
+}
+.container{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
